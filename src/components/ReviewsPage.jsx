@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import { Star, ShieldCheck, CheckCircle2, Car } from 'lucide-react';
+import { Star, ShieldCheck, CheckCircle2 } from 'lucide-react';
 
 const reviewsData = [
   {

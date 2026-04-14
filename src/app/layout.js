@@ -6,6 +6,9 @@ import WhatsAppWidget from "@/components/WhatsAppWidget";
 export const metadata = {
   title: "Rosary Global | Travel Partner Sri Lanka",
   description: "Premium airport transfers and safari adventures",
+  icons: {
+    icon: '/logo.jpeg',
+  },
 };
 
 export default function RootLayout({ children }) {

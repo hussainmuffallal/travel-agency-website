@@ -221,21 +221,23 @@ export default function Hero() {
                 </div>
               </div>
 
+              {/* Pickup Location */}
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-1">Pickup Location</label>
                 {isLoaded ? (
-                  <Autocomplete>
+                  <Autocomplete options={{ componentRestrictions: { country: "lk" } }}>
                     <input type="text" placeholder="e.g. BIA Airport" className="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-emerald-600" ref={pickupRef} />
                   </Autocomplete>
                 ) : (
                   <input type="text" placeholder="Loading..." disabled className="w-full border border-gray-300 rounded-lg p-3 bg-gray-100" />
                 )}
               </div>
-
+              
+              {/* Drop-off Location */}
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-1">Drop-off Location</label>
                 {isLoaded ? (
-                  <Autocomplete>
+                  <Autocomplete options={{ componentRestrictions: { country: "lk" } }}>
                     <input type="text" placeholder="e.g. Galle Fort" className="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-emerald-600" ref={dropoffRef} />
                   </Autocomplete>
                 ) : (

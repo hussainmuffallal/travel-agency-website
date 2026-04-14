@@ -5,7 +5,7 @@ import WhatsAppWidget from "@/components/WhatsAppWidget";
 
 export const metadata = {
   title: "Rosary Global | Travel Partner Sri Lanka",
-  description: "Premium airport transfers and safari adventures",
+  description: "Sri Lanka Airport Transfers, Taxi Service & Safari Adventures | Rosary Global",
   icons: {
     icon: '/logo.jpeg',
   },
